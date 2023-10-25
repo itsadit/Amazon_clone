@@ -235,3 +235,64 @@ ul a{
 .aditya{
     padding-top: 10px;
 }
+@media (max-width: 768px) {
+  .navbar {
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .nav-logo, .nav-cart {
+    display: none;
+  }
+}
+
+/* Search bar */
+@media (max-width: 576px) {
+  .nav-search {
+    width: 100%;
+  }
+
+  .search-select, .search-input, .search-icon {
+    width: 30%;
+  }
+}
+
+/* Shop section */
+@media (max-width: 992px) {
+  .shop-section {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .box {
+    width: 30%;
+  }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.6rem;
+  }
+
+  .foot-panel2 {
+    flex-direction: column;
+  }
+
+  ul {
+    margin-top: 10px;
+  }
+
+  .foot-panel3 {
+    height: 50px;
+  }
+
+  .foot-panel4 {
+    height: 60px;
+  }
+
+  .pages, .copyright, .aditya {
+    padding: 5px;
+  }
+}
